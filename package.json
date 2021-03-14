@@ -1,7 +1,7 @@
 {
   "name": "wfdwrap",
   "productName": "wfdwrap",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "My Electron application description",
   "repository": "https://github.com/fredoffcloud/wfdwrap",
   "main": "main.js",
@@ -49,7 +49,7 @@
         {
           "name": "@electron-forge/maker-dmg",
           "config": {}
-        },        
+        },
         {
           "name": "@electron-forge/maker-deb",
           "config": {}
