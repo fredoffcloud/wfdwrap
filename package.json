@@ -1,7 +1,7 @@
 {
   "name": "wfdwrap",
   "productName": "wfdwrap",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "My Electron application description",
   "repository": "https://github.com/fredoffcloud/wfdwrap",
   "main": "main.js",
