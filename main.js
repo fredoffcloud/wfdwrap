@@ -5,6 +5,25 @@ var path = require("path");
 var url = require("url");
 var appVersion = electron_1.app.getVersion();
 var win = null;
+
+
+if (require('electron-squirrel-startup')) {
+    electron_1.app.quit();
+}
+  
+require('update-electron-app')({
+    repo: 'fredoffcloud/wfdwrap',
+    updateInterval: '5 minutes',
+    logger: require('electron-log')
+});
+const log = require('electron-log');
+  
+log.info('Hello, log, är detta en infotext?');
+log.warn('Några problem uppstod');
+  
+
+
+
 var args = process.argv.slice(1), serve = args.some(function (val) { return val === '--serve'; });
 function createWindow() {
     var electronScreen = electron_1.screen;
